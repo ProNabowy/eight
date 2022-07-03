@@ -11,6 +11,7 @@
 body {
     font-family: 'Cairo', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 :root {
     --main-color:#764abc;
@@ -146,6 +147,20 @@ html {
             font-size: 20px;
             color: var(--white-color);
         }
+    }
+    /* 
+        icons
+    */
+    .fa-bars,
+    .fa-xmark {
+        font-size: 40px;
+        right: 30px;
+        top: 30px;
+        position: absolute;
+        cursor: pointer;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
     }
 /* Start Header  */
 /* Strat Landing */
